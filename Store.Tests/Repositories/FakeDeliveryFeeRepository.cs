@@ -2,7 +2,7 @@
 
 namespace Store.Tests.Repositories
 {
-    public class FakeDelivereFeeRepository : IDeliveryFeeRepository
+    public class FakeDeliveryFeeRepository : IDeliveryFeeRepository
     {
         public decimal Get(string zipCode)
         {
